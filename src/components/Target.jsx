@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 const Target = (props) => {
   const targetRef = useRef();
-  const scene = useGLTF("/models/target.gltf");
+  const { nodes, materials } = useGLTF("/models/target.gltf");
 
   useGSAP(() => {
     gsap.to(targetRef.current.position, {
@@ -17,14 +17,30 @@ const Target = (props) => {
   });
 
   return (
-    <mesh
-      {...props}
-      ref={targetRef}
-      rotation={[0, Math.PI / 5, 0]}
-      position={[0, 0.079, 0.181]}
-    >
-      <primitive object={scene}></primitive>
-    </mesh>
+    <group {...props} ref={targetRef}>
+      <group rotation={[Math.PI / 2, 0, 0]} scale={1.5}>
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Cylinder016.geometry}
+          material={materials["Red.025"]}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Cylinder016_1.geometry}
+          material={materials["White.025"]}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Cylinder016_2.geometry}
+          material={materials["BrownDark.018"]}
+        />
+      </group>
+    </group>
   );
 };
+
+useGLTF.preload("/target.gltf");
 export default Target;

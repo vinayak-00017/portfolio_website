@@ -1,13 +1,11 @@
 import { Float, useGLTF } from "@react-three/drei";
 
-export function ReactLogo(props) {
+function ReactLogo(props) {
   const { nodes, materials } = useGLTF("/models/react.glb");
   return (
     <Float floatIntensity={1}>
-      <group {...props} scale={0.3}>
+      <group {...props} scale={0.5}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes["React-Logo_Material002_0"].geometry}
           material={materials["Material.002"]}
           position={[0, 0.079, 0.181]}
@@ -20,3 +18,5 @@ export function ReactLogo(props) {
 }
 
 useGLTF.preload("/models/react.glb");
+
+export default ReactLogo;
