@@ -61,8 +61,7 @@ const Contact = () => {
         <div className={"contact-container"}>
           <h3 className={"head-text"}>Lets talk now</h3>
           <p className={"text-lg text-white-600 mt-3"}>
-            Whether you are looking for .... ..... .... .... I am here to talk.
-          </p>
+          Need a Full Stack Developer to build, optimize, or innovate? Let’s chat!          </p>
           <form
             ref={formRef}
             onSubmit={handleSubmit}

@@ -24,36 +24,36 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Ryan Mitchell",
+    position: "Freelance Client",
+    img: "assets/review1.jpg",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Vinayak is an exceptional Full Stack Developer with a strong grasp of JavaScript, API integration, and database management. His ability to create efficient and scalable solutions has been invaluable to our projects.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Arnav Yadav",
+    position: "Local Business Owner",
+    img: "assets/review2.jpg",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Working with Vinayak was a game-changer for our business. He developed a seamless, responsive web application that significantly improved our user experience. I am not much of a tech guy but he was responsive thoughout the gig.",
   },
-  {
-    id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
+//   {
+//     id: 3,
+//     name: "John Dohsas",
+//     position: "Project Manager ",
+//     img: "assets/review3.png",
+//     review:
+//       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+//   },
+//   {
+//     id: 4,
+//     name: "Ether Smith",
+//     position: "Freelance Client",
+//     img: "assets/review4.png",
+//     review:
+//       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+//   },
 ];
 
 export const myProjects = [
@@ -171,7 +171,7 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
+    title: "Fullstop - End to End Ecommerce Platform",
     desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
@@ -208,7 +208,7 @@ export const myProjects = [
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
+    title: "Imai - AI Photo Manipulation App",
     desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
     subdesc:
       "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
