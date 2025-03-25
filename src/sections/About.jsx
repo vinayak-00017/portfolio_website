@@ -33,7 +33,7 @@ const About = () => {
             <div>
               <p className={"grid-headtext"}>Hi, I'm Vinayak</p>
               <p className={"grid-subtext"}>
-                With 4 years of experience across various development fields.
+                With 4 years of learnings and experience across various development fields.
               </p>
             </div>
           </div>
