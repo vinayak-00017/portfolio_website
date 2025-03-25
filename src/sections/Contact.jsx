@@ -59,7 +59,7 @@ const Contact = () => {
           className={"absolute inset-0 w-full h-full"}
         />
         <div className={"contact-container"}>
-          <h3 className={"head-text"}>Lets talk now</h3>
+          <h3 className={"head-text"}>Lets talk!</h3>
           <p className={"text-lg text-white-600 mt-3"}>
           Need a Full Stack Developer to build, optimize, or innovate? Let’s chat!          </p>
           <form
@@ -76,7 +76,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder={"Connor McGregor"}
+                placeholder={"Daniel Brooks"}
               />
             </label>{" "}
             <label className={"space-y-3"}>
@@ -88,7 +88,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder={"ConnorMcGregor@ufc.com"}
+                placeholder={"danielbrooks@example.com"}
               />
             </label>{" "}
             <label className={"space-y-3"}>
@@ -100,7 +100,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder={"It's just business!"}
+                placeholder={"Hi....."}
               />
             </label>
             <button className={"field-btn "} type={"submit"} disabled={loading}>
