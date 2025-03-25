@@ -2,8 +2,10 @@ import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 import { useState } from "react";
 
+
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
+;
 
   const handleCopy = () => {
     navigator.clipboard.writeText("vinayak00017@gmail.com");
@@ -82,11 +84,13 @@ const About = () => {
               <p className={"grid-subtext"}>
                 I am based in India, with remote work available.
               </p>
-              <Button
-                name={"Contact me"}
-                isBeam
-                containerClass={"w-full mt-10"}
-              ></Button>
+              <a href="#contact" className="w-fit" >
+                <Button
+                  name={"Contact me"}
+                  isBeam
+                  containerClass={"w-full mt-10"}
+                ></Button>
+              </a>
             </div>
           </div>
         </div>

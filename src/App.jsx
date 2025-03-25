@@ -7,18 +7,19 @@ import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
 import Experience from "./sections/Experience.jsx";
 
+
 const App = () => {
   return (
-    <main className={"mx-auto max-w-7xl"}>
-      <Navbar />
-      <Hero />
-      <About />
-      {/* <Projects /> */}
-      {/* <Experience /> */}
-      <Clients />
-      <Contact />
-      <Footer />
-    </main>
+      <main className={"mx-auto max-w-7xl"}>
+        <Navbar />
+        <Hero />
+        <About />
+        {/* <Projects /> */}
+        {/* <Experience /> */}
+        <Clients />
+        <Contact />
+        <Footer />
+      </main>
   );
 };
 export default App;
